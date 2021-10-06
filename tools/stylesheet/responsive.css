@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@media (max-width:800px){
+  section {
+    padding: 40px 40px;
+    width: 100%;
+  }
+
+  .header_wrapper {
+    padding: 30px 30px;
+  }
+
+  .header_title {
+    margin-bottom: 30px;
+  }
+
+  .header_nav li {
+    margin-bottom: 15px;
+  }
+
+  .about_photo {
+    width: 60%;
+    padding: 0 5%;
+    padding-bottom: 50px;
+    margin: 0 auto;
+  }
+ 
+  .about_profile {
+    width: 100%;
+  }
+
+  .about_profile p {
+    text-align: center;
+  }
+
+  .skills_list li {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .skills_contents p {
+    text-align: center;
+  }
+
+  .works_list li {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  } 
+
+}
+
+@media (min-width:800px){
+  section {
+    padding: 80px 80px;
+    width: 80%;
+  }
+
+  .header_wrapper {
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header_nav {
+    display: flex;
+  }
+
+  .header_nav li {
+    margin-right: 25px;
+  }
+
+  .about_wrapper {
+    display: flex;
+  }
+  
+
+  .about_photo {
+    width: 40%;
+    padding: 0 5%;
+  }
+  
+  .about_profile {
+    width: 60%;
+  }
+
+  .skills_list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .skills_list li {
+    width: 40%;
+  }
+
+  .skills_contents {
+    margin: 0 auto;
+  }
+
+  .works_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }  
+
+  .works_list li {
+    width: 50%;
+    height: auto;
+  }
+  
+  
+}

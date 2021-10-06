@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+p, a{
+  color: #241a08;
+}
+
+p {
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  margin: 0 auto;
+}
+
+.section_title {
+  font-size: 36px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #241a08;
+}
+
+.header_title {
+  font-size: 20px;
+  color: #241a08;
+}
+
+.header_nav li a:hover {
+  opacity: 0.5;
+}
+
+.hero {
+  background-image: url(../images/hero3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+}
+
+.about_photo img{
+  border-radius: 50%;
+}
+
+.about_profile p {
+  margin-bottom: 20px;
+}
+
+.about_introduction {
+  padding-top: 30px;
+}
+
+.skills_title {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #241a08;
+}
+
+.skills_tools {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skills_pcicon {
+  background-image: url(../images/pcicon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.skills_mouseicon {
+  background-image: url(../images/mouseicon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.works_list li {
+  padding: 30px;
+  transition: 0.6s
+}
+
+.works_list li:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+.works_list li img {
+  border: solid .5px #241a08;
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+}
+
+.footer_wrapper {
+  padding: 30px 30px;
+}
+
+.footer_wrapper p {
+  text-align: center;
+  font-size: 12px;
+}
